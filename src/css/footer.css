@@ -1,0 +1,17 @@
+.site-footer h6{
+    text-align: center;
+}
+.site-footer
+{
+width: 100%;
+    background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#faeaea;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}

@@ -1,0 +1,206 @@
+
+/* home styling 
+*/
+/* 
+
+.home .nav-item a {  
+   
+  color: #000;
+}
+
+
+.home nav {
+ overflow: hidden;
+ background-color: transparent;
+ position: fixed;
+ top: 5%;
+ left: 60%;
+ width: 100%;
+ z-index: 1;
+}
+
+.home nav ul li {
+ display: inline;
+
+ color: #fff;
+ margin: 0 2% 0 2%;
+ cursor: pointer;
+ line-height: 2;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ color: #000;
+
+
+} */
+
+
+
+
+#slider {
+    overflow: hidden;
+    margin-top: 2%;
+    z-index: -1;
+    height: 400px;
+  }
+  
+  @keyframes slider {
+    0% {
+      left: 0;
+    }
+    30% {
+      left: 0;
+    }
+    33% {
+      left: -100%;
+    }
+    63% {
+      left: -100%;
+    }
+    66% {
+      left: -200%;
+    }
+    95% {
+      left: -200%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+  #slider figure {
+    width: 300%;
+    position: relative;
+    animation: 11s slider infinite;
+  }
+  
+  #slider figure img {
+    width: 33.333333333%;
+    height: 100%;
+    float: left;
+  }
+  
+  
+  .home .SliderHead{
+    /* color: red; */
+    text-align: center;
+    margin-top: 2%;
+  }
+    .mainCard{width: 30%!important;
+    background-color:transparent;
+  height: 200px;}
+  
+    .Cardcontainer{
+    
+      /* padding: 10%; */
+    /* margin-top:5%; */
+    /* margin-left:100%; */
+    transform:translate(0%,0%);
+        width:330px;
+        height:130px;
+        margin: 5%;
+       
+        background:url("https://images.unsplash.com/photo-1581873372796-635b67ca2008?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTN8fHBpenphfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60") center/cover;
+        box-shadow:0 5px 10px rgba(0,0,0,.2);
+        border-radius:5px;
+        overflow:hidden;
+        
+        /* display: inline; */
+    }
+    .layer-one ,.layer-two{
+        position:absolute;
+        height:100%;
+        background:#fff;
+        transition:.5s ease;
+    }
+    .layer-one{
+        width:70px;
+        clip-path:polygon(0 0,100% 0,25% 100%,0 100%);
+        transform:translateX(-100px);
+    }
+    .layer-two{
+        top:0;
+        right:0;
+        width:240px;
+        clip-path:polygon(20% 0,100% 0,100% 100%,0 100%);
+        transform:translateX(250px);
+    }
+    input{
+        display:inline-block;
+    }
+    label{
+        position:absolute;
+        top:10px;
+        left:20px;
+        font-size:1.1rem;
+        color:#e0e0e0;
+    }
+    input:checked + label{
+        color:#fec331;
+    }
+    .text{
+    position:relative;
+        margin-left:3rem;
+        padding:.2rem;
+        height:130px;
+        font-family:'Alata', sans-serif;
+    }
+    .detail{
+    margin:5px 0;
+        display:flex;
+        font-size:.7rem;
+        color:#26242e;
+    }
+    .detail p{
+        margin-right:.9rem;
+    }
+    .fa-clock{
+        color:#3ac5f0;
+    }
+    .fa-star{
+        color:#fec331;
+    }
+    .fa-fire{
+        color:#fe2d38;
+    }
+    .text button{
+        position:absolute;
+        right:10px;
+        bottom:10px;
+        padding:7px 25px;
+        font-size:1rem;
+        border:none;
+        outline:none;
+        color:#fff;
+        background:#fe2d38;
+        box-shadow:0 2px 4px rgba(254, 45, 56,.7);
+        border-radius:2px;
+        font-family:'Alata', sans-serif;
+    }
+    #price{
+        position:absolute;
+        bottom:15px;
+        left:4px;
+    }
+    .Cardcontainer:hover .layer-one{
+        transform:translateX(0);
+    }
+    .Cardcontainer:hover .layer-two{
+        transform:translateX(0);
+    }
+  
+    .CardDiv{
+      background-color: transparent;
+      width: 100% !important;
+      display: inline;
+      /* float: left; */
+      /* padding-left: 20%; */
+      /* float: left; */
+      width: 33.33%;
+      display: flex;
+      /* padding-left: 150
+  px
+  ; */
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+    
+    }

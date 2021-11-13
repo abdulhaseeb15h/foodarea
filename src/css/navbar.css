@@ -1,0 +1,54 @@
+
+.navbar .nav-item a {  
+   
+  
+  color: #000;
+  
+}
+
+.navbar .nav-item  {  
+   
+  color: #000;
+  
+  
+}
+.navbar .nav-item :hover {  
+  
+  color: #ffee00;
+  
+}
+
+
+.navbar nav {
+ overflow: hidden;
+ background-color: transparent;
+ position: absolute;
+ top: 40%;
+ left: 40%;
+ width: 100%;
+ z-index: 1;
+}
+
+.navbar nav ul li {
+ display: inline;
+ /* color: black; */
+ /* background-color: tomato; */
+ color: #fff;
+ margin: 0 2% 0 2%;
+ cursor: pointer;
+ line-height: 2;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ color: #000;
+
+ /* font-weight: 800; */
+}
+
+
+/* .navbar h1{
+ color: #007bff;
+ margin-left: 2%
+} */
+.navHead{
+  color: #ffee00;
+  z-index: 1;
+}
